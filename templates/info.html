@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/info.css') }}" />
+
+  <title>Finance Project Info</title>
+
+  <!-- Bootstrap + Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+
+  <!-- jQuery + Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script defer src="{{ url_for('static', filename='js/info.js') }}"></script>
+    
+</head>
+<body>
+  <header class="header">
+    Information
+  </header>
+  <button class="back">Go Back To "Introduction"</button>
+
+
+  <main>
+    <p class="inst">(Hover over the questions for information)</p>
+    <h2 class="questions">What is it exactly?</h2>
+    <section>
+      <p class="answers">This mini-project is a means of (roughly) predicting stock valuation for a company.</p>
+      <p class="answers">It uses Yahoo Finance's API to gather the data on a companies stock valuation whether it be high, low, open, etc.</p>
+      <p class="answers">Within the program itself, it can model the data that the API gets, predict what happens next through the use of ARIMA.</p>
+      <p class="answers">More information will be given later in this process.</p>
+    </section>
+
+    <h2 class="questions">Why?</h2>
+    <section>
+      <p class="answers">It was made out of boredom and stock market interest.</p>
+      <p class="answers">During a college students Junior year, the time to get an internship in their respective area of expertise is required.</p>
+      <p class="answers">However, I did not get an internship, but rather got rejected at each place I applied to. I got tired of the automated rejection emails</p> 
+      <p class="answers">So, this mini-project is a means to get some experience and in my field of Data Science (Conc. Economics) and Computer Science.</p>
+    </section>
+
+    <h2 class="questions">What's in it for me?</h2>
+    <section>
+      <p class="answers unlock">I decided to make this thing public so that maybe other people can learn from it and also put it on my resume.</p>
+      <p class="answers">Without further ado, you can try it too (get the rhyme?)! Click the button below that is labeled "Get Started"!</p>
+    </section>
+
+    <button class="start-button">Get Started</button>
+
+  </main>
+
+</body>
+</html>

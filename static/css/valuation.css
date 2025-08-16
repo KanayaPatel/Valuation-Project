@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #131316 !important;
+  color: white !important;
+  justify-content: center; 
+  min-height: 100vh; 
+}
+
+.header {
+  font-size: 8rem !important;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #131316;
+  padding: 20px;
+  font-size: xx-large;
+  color: white;
+  
+  width: fit-content;        
+  margin: 0 auto;            
+  
+  text-align: center;
+  
+  border-right: none;
+  animation: typewriter 3s steps(30, end) 1s forwards;
+
+  text-shadow: 6px 6px 6px #6f828a;
+
+}
+
+.tbl {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  margin-bottom: 30px;
+}
+
+
+.cell { 
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size:40px;
+  border: 1px solid white;
+}
+
+input, select {
+  font-size: 35px;
+  padding: 10px 15px;
+  width: 100%;       /* fill cell horizontally */
+  box-sizing: border-box;
+}
+
+.est {
+  display: grid;
+  background-color: green !important;
+  color: black;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 1s ease, box-shadow .5s ease;
+  margin-bottom: 40px;
+  width: 400px !important; 
+  margin: 40px auto 40px !important;
+}
+
+.est:hover {
+  background-color: #00ff88 !important;
+  box-shadow: 0 0 15px #00ff88;
+}
+
+.next {
+  display: grid;
+  background-color: green !important;
+  color: black;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 1s ease, box-shadow .5s ease;
+  margin-bottom: 40px;
+  width: 400px !important; 
+  margin: 40px auto 40px !important;
+}
+
+.next:hover {
+  background-color: #00ff88 !important;
+  box-shadow: 0 0 15px #00ff88;
+}
+
+.ta:disabled, .tk:disabled, .tp:disabled, .dt:disabled {
+  background-color: rgb(45, 46, 46);   
+  color: rgb(169, 169, 169);              
+  cursor: not-allowed;     
+}
+
+.inst {
+  padding-bottom: 10px;
+  font-size:x-large;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+@keyframes typewriter {
+  from { width: 0 }
+  to { width: 100% }
+}

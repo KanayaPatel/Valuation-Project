@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}"/>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+    
+    <style>
+        h1.h {
+            font-size: 8rem;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid white;
+            width: 0;
+            margin: 100px auto;
+            animation:
+                typewriter 3s steps(30, end) 1s forwards;
+            border-right: none;
+            text-shadow: 6px 6px 6px #6f828a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="h">Welcome to the Finance Project</h1>
+    <p>(Click the button below to learn about this project)</p>
+    <section class="index-button">Information</section>
+
+</body>
+
+</html>

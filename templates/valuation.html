@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valuation Predictor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/valuation.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/valuation.css') }}" />
+</head>
+
+<body>
+<div class="container">
+    <h1 class="header text-center">Valuation Predictor</h1>
+
+    <div>
+        <div>
+            <p class="title">Instructions</p>
+        </div>
+
+        <div>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <p class="inst">1. Select Time Period. The data gathered will be from the selected time period.</p>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <p class="inst">2. Choose a time amount. NOTE: This field is locked if "Year to Date" or "Max" is chosen, as those do NOT need a specified amount of years, months, or days.</p>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <p class="inst">3. Choose a data type. You MUST choose one. If not, it will automatically assume you chose "Low".</p>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <p class="inst">4. Choose the company you want to look at! NOTE: This primarily works for companies with unique symbols. Companies like Samsung may not work properly and give extraneous values.</p>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <p class="inst" style="font-weight: bold; color: red;">NOTE: These fields will automatically lock after pressing "Begin Estimation". After the first step has been calculated, click the "Next Step" button to see the next step. All values will be stored in the table below.</p>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <p class="inst" style="font-weight: bold; color: red;">NOTE: These are NOT saved after leaving the site and will change over time. These are just estimates, nothing too special.</p>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <p class="inst" style="font-weight: bold; color: red;">NOTE: THESE VALUES ARE NOT REAL AND ARE NOT MEANT TO INFLUENCE FINANCIAL DECISIONS IN ANY WAY SHAPE OR FORM. THIS IS SIMPLY A WAY FOR ME TO TEST MY PERSONAL KNOWLEDGE AND SKILLS.</p>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+        </div>
+
+    </div>
+    <div class="control">
+        <table class="table table-bordered">
+            <tr>
+                <th>Time Period</th>
+                <th>Time Amount (e.g., 1 or 3)</th>
+                <th>Data Type</th>
+                <th>Ticker Symbol (e.g., AAPL or NFLX)</th>
+            </tr>
+            <tr>
+                <td>
+                    <select class="tp" name="time_period">
+                        <option value="d">Day</option>
+                        <option value="m">Month</option>
+                        <option value="y">Year</option>
+                        <option value="ytd">Year To Date</option>
+                        <option value="max">Max</option>
+                    </select>
+                </td>
+                <td id="time-amount">
+                    <input class="ta" name="amount" type="text" value="">
+                </td>
+                <td>
+                    <select name="data_type" class="dt">
+                        <option>Low</option>
+                        <option>High</option>
+                        <option>Open</option>
+                        <option>Close</option>
+                        <option>Volume</option>
+                    </select>
+                </td>
+                <td>
+                    <input class="tk" name="ticker" type="text">
+                </td>
+            </tr>
+        </table>
+
+        <table class="table table-bordered">
+            <tr>
+                <th>Minimum Estimate (USD)</th>
+                <th>Maximum Estimate (USD)</th>
+            </tr>
+            <tr>
+                <td><input name="minest" type="text" disabled></td>
+                <td><input name="maxest" type="text" disabled></td>
+            </tr>
+        </table>
+
+        <button class="est">Begin Estimation</button>
+    </div>
+    
+    <div>
+        <table class="table table-bordered">
+            <tr>
+                <th>Minimum Estimate (USD) History</th>
+                <th>Maximum Estimate (USD) History</th>
+            </tr>
+            <tr>
+                <th><ul id="minlist"></ul></th>
+                <th><ul id="maxlist"></ul></th>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

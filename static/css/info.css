@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+html, body, main, header, p, h2, section,
+start-button{
+  margin: 0;
+  padding: 0;
+  background-color: #131316 !important;
+  color: white !important;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  width: 100vw;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+main {
+  background-color: #131316 !important;
+  width: 100%;
+}
+
+.header {
+  font-size: 8rem !important;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 20px;
+  font-size: xx-large;
+  color: white;
+  
+  width: fit-content;        
+  margin: 0 auto;            
+  
+  text-align: center;
+  
+  border-right: none;
+  animation: typewriter 3s steps(30, end) 1s forwards;
+
+  text-shadow: 6px 6px 6px #6f828a;
+}
+
+section {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  color: transparent;
+  background-color: #131316;
+  border: 1px solid #555;
+  border-radius: 12px;
+  width: 90vw;
+  max-width: 1400px;
+  margin: 0 auto 0;
+  padding: 0 20px;
+  transition:
+    opacity 0.5s ease,
+    max-height 0.5s ease,
+    color 0.5s ease,
+    padding 0.5s ease,
+    margin-bottom 0.5s ease,
+    box-shadow 0.5s ease;
+}
+
+h2.questions {
+  color:white;
+  transition: color .75s ease;
+  cursor: pointer;
+  text-align: center;
+  margin: 40px 0;
+  transition: font-size 1s ease, box-shadow 1s ease;
+}
+
+h2.questions:hover {
+  text-shadow: 2px 2px 3px white;
+}
+
+h2.questions:hover + section, section:hover {
+  max-height: 400px;
+  opacity: 1;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 20px !important;
+  box-shadow: 0 0 15px green !important;
+}
+
+p.inst {
+  text-align: center;
+  margin: 10px 0 20px;
+  font-style: italic;
+}
+
+.start-button {
+  display: grid;
+  background-color: green !important;
+  color: black;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 1s ease, box-shadow .5s ease;
+  margin-bottom: 40px;
+  width: 400px !important; 
+  margin: 40px auto 40px !important;
+}
+
+.start-button:hover {
+  background-color: #00ff88 !important;
+  box-shadow: 0 0 15px #00ff88;
+}
+
+button.back {
+  background-color: darkred;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px;
+  transition: background-color 1s ease, box-shadow .5s ease;
+}
+
+button.back:hover {
+  background-color: red;
+  box-shadow: 0 0 15px red;
+}
+
+@keyframes typewriter {
+  from { width: 0 }
+  to { width: 100% }
+}
