@@ -50,7 +50,7 @@ this may take a minute.
 
 Step 4: Open the ```app.py``` folder and run it. From the terminal, press CTRL + Left click on the second or third line that says "Running On" (shown below). This will take you to the actual webpage. 
 
-<p align="center"><img src="assets/image1.png" width="300" alt="Terminal Screenshot"/></p>
+<p align="center"><img src="assets/image1.png" width="500" alt="Terminal Screenshot"/></p>
 
 
   
