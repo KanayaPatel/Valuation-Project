@@ -41,8 +41,10 @@ For the fourth field (the Ticker Symbol), you get to choose a company to predict
 <img width="408" height="141" alt="image" src="https://github.com/user-attachments/assets/0d972b8c-48aa-4b76-844a-c24c1951b01c" />
 
 
-
-
-
 ## 🤝 Contributing
 ## 📜 License
+## 🚧 Future Improvements
+- [ ] Add the ability to save estimates for future use. 
+- [ ] Implement login (Username and Password)
+- [ ] Implement the ability to use non-Ticker Symbol using companies (such as Samsung)
+- [ ] Include a spot to display the error in the estimates. 
