@@ -56,9 +56,6 @@ You can contribute in several ways:
 - 📝 Improving documentation
 - 🔧 Submitting code via Pull Requests
   
-## 📜 License
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
 ## 📦 Dependencies
 This project uses the following libraries and APIs (these were already applied in the Installation step at the top of the page):
 
@@ -66,9 +63,14 @@ This project uses the following libraries and APIs (these were already applied i
 - [Pandas](https://pandas.pydata.org/) – data manipulation
 - [Matplotlib](https://matplotlib.org/) – visualization
 - [Prophet](https://facebook.github.io/prophet/) – forecasting
+- Some helper functions and code snippets were suggested by ChatGPT (OpenAI)
 
 ## 🚧 Future Improvements
 - [ ] Add the ability to save estimates for future use. 
 - [ ] Implement login (Username and Password)
 - [ ] Implement the ability to use non-Ticker Symbol using companies (such as Samsung)
-- [ ] Include a spot to display the error in the estimates. 
+- [ ] Include a spot to display the error in the estimates.
+
+## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
