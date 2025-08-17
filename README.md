@@ -48,7 +48,11 @@ this may take a minute.
 
 ---
 
-  Step 4: Open the ```app.py``` folder and run it. From the terminal, press CTRL + Left click on the second or third part that says "Running On". This will take you to the actual webpage. 
+Step 4: Open the ```app.py``` folder and run it. From the terminal, press CTRL + Left click on the second or third line that says "Running On" (shown below). This will take you to the actual webpage. 
+
+<img width="453" height="55" alt="image" src="https://github.com/user-attachments/assets/6cf1cc0b-19d5-4909-a739-7e9f28532bb7" />
+
+  
   
 ## 🛠 Usage
 At this point in time, you should see a webpage that should look like the following: 
