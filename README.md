@@ -14,7 +14,8 @@ At this point in time, you shold see a webpage that should look like the followi
 
 Click on the information button to learn about this project. The webpage should look like this: 
 
-<img width="2559" height="1269" alt="image" src="https://github.com/user-attachments/assets/ba71bf06-7275-476b-8d75-3591f461e421" />
+<img width="2557" height="1267" alt="image" src="https://github.com/user-attachments/assets/0f315a44-b3fa-4908-a933-f89bf277d8b1" />
+
 
 If you wish to go back to the previous page at any time, there is always a button in the top left corner that will take you back to the previous page. After reading, click the "Get Started" button at the bottom of the screen. It will take you to a page to where the magic happens: 
 
