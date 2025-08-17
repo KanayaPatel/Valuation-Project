@@ -50,7 +50,15 @@ This is what it looks like after pressing "Next Step":
 <img width="2544" height="1269" alt="image" src="https://github.com/user-attachments/assets/a3e5c7e7-ffef-4fa9-80d6-2af095f57a55" />
 
 ## 🤝 Contributing
+You can contribute in several ways:
+- 🐛 Reporting bugs
+- 💡 Suggesting new features
+- 📝 Improving documentation
+- 🔧 Submitting code via Pull Requests
+  
 ## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
 ## 🚧 Future Improvements
 - [ ] Add the ability to save estimates for future use. 
 - [ ] Implement login (Username and Password)
