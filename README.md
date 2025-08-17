@@ -46,7 +46,9 @@ Here is an image of all fields being filled as well as there being an output! No
 
 <img width="2556" height="1271" alt="image" src="https://github.com/user-attachments/assets/7eb914e3-a2c0-4ffc-8157-269a14d954ed" />
 
+This is what it looks like after pressing "Next Step": 
 
+<img width="2544" height="1269" alt="image" src="https://github.com/user-attachments/assets/a3e5c7e7-ffef-4fa9-80d6-2af095f57a55" />
 
 ## 🤝 Contributing
 ## 📜 License
