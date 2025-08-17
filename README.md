@@ -9,31 +9,37 @@
 
 
 ## 🚀 Installation
-  Step 1: Use the following command in a terminal: 
+Step 1: Use the following command in a terminal: 
+  
 ```bash
 git clone https://github.com/KanayaPatel/Valuation-Project.git
 ```
+
 ---
 
-  Step 2: Use the following command: 
+Step 2: Use the following command: 
+  
 ```bash 
 python3.11 venv venv
 ```
-to create a python virtual environment (this will take a minute). Then, activate it using 
+
+This creates a python virtual environment (this will take a minute). After finishing, activate it using
+
 ```bash
 venv/Scripts/activate
 ```
 
- Both these commands happen in the terminal as well. 
+ Both these commands happen in the terminal. 
 
 ---
 
-  Step 3: Enter the project folder using 
-  ```bash 
-  cd '.\Finance Project\'
+Step 3: Enter the project folder using: 
+
+```bash 
+cd '.\Finance Project\'
 ```
 
-  Then, do 
+Then, also do the following:
    
 ```
 pip install -r "requirements.txt"
