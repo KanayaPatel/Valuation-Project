@@ -59,6 +59,14 @@ You can contribute in several ways:
 ## 📜 License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
+## 📦 Dependencies
+This project uses the following libraries and APIs (these were already applied in the Installation step at the top of the page):
+
+- [Yahoo Finance API](https://finance.yahoo.com/) via [yfinance](https://pypi.org/project/yfinance/)
+- [Pandas](https://pandas.pydata.org/) – data manipulation
+- [Matplotlib](https://matplotlib.org/) – visualization
+- [Prophet](https://facebook.github.io/prophet/) – forecasting
+
 ## 🚧 Future Improvements
 - [ ] Add the ability to save estimates for future use. 
 - [ ] Implement login (Username and Password)
