@@ -18,8 +18,7 @@ Click on the information button to learn about this project. The webpage should 
 
 If you wish to go back to the previous page at any time, there is always a button in the top left corner that will take you back to the previous page. After reading, click the "Get Started" button at the bottom of the screen. It will take you to a page to where the magic happens: 
 
-<img width="2557" height="1267" alt="image" src="https://github.com/user-attachments/assets/fead455a-3e2e-4d1f-ba19-57963b1a807a" />
-
+<img width="2558" height="1272" alt="image" src="https://github.com/user-attachments/assets/34881689-235b-4134-a1da-5f13117aa0fb" />
 
 Please read through the instructions and the notes at the bottom. Below will be some examples in the form of screenshots on how to use this predictor. 
 
