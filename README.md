@@ -72,9 +72,9 @@ Please read through the instructions and the notes at the bottom. Below will be 
 
 ## 📊 Examples
 
-For the first field (the Time Period), you get the selection from the following: Day, Month, Year, Year to Date, and Max, as shown below. These selections specify how much data to use in the predictions. That is, if Day is chosen, the predictor will use valuation data within the last day. The more data you use, the better the predictions but the longer the processing time. 
+For the first field (the Time Period), you get the selection from the following: Day, Month, Year, Year to Date, and Max, as shown below. These selections specify how much data to use in the predictions. That is, if 'Day' is chosen, the predictor will use valuation data within the last day. The more data you use, the better the predictions but the longer the processing time. 
 
-<p align='center'><img src="assets/image4.png" width="300" alt="Time Period Selection"/></p>
+<p align='center'><img src="assets/image4.png" width="800" alt="Time Period Selection"/></p>
 
 For the second field (the Time Amount), you get to input how many Days, Months, or Years worth of data you wish to use for the prediction. Note that you must choose a number that is probable. That is, using the number 1,000,000 will not work. Try using smaller numbers such as 1 or 3 for best results. 
 
