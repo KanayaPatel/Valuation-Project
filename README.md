@@ -58,7 +58,7 @@ Step 4: Open the ```app.py``` folder and run it. From the terminal, press CTRL +
 ## 🛠 Usage
 At this point in time, you should see a webpage that should look like the following: 
 
-<img src="assets/image2.png" width="800" alt="Home Page Screenshot"/>
+![Main Prediction Page](assets/image1.png)
 
 Click on the information button to learn about this project. The webpage should look like this: 
 
