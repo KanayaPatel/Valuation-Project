@@ -57,6 +57,8 @@ You can contribute in several ways:
 - 🔧 Submitting code via Pull Requests
   
 ## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
 ## 🚧 Future Improvements
 - [ ] Add the ability to save estimates for future use. 
 - [ ] Implement login (Username and Password)
