@@ -86,7 +86,7 @@ For the third field (the Data Type), you get the selection from the following: L
 
 For the fourth field (the Ticker Symbol), you get to choose a company to predict stock from! Choose any company you wish. However, be careful of using new and upcoming companies, as their data may not exist or the Time Amount chosen may be incorrect. Ensure that there is enough data to make good predictions. NOTE: For the image below, "AAPL" is the Ticker Symbol for Apple.
 
-<p align="center">![Ticker Symbol](assets/image8.png)</p>
+<p align="center"> ![Ticker Symbol](assets/image8.png) </p>
 
 
 Here is an image of all fields being filled as well as there being an output! Note that the current values are stored temporarily in their respective tables. In the case of you choosing 'volume' as the data type, ignore the label (USD) and interpret the value given as a number of stocks. 
