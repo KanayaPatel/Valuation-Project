@@ -40,7 +40,7 @@ venv/Scripts/activate
 Step 3: Enter the project folder using: 
 
 ```bash 
-cd '.\Finance Project\'
+cd .\Valuation-Project\
 ```
 
 Then, also do the following:
