@@ -73,21 +73,27 @@ Please read through the instructions and the notes at the bottom. Below will be 
 
 For the first field (the Time Period), you get the selection from the following: Day, Month, Year, Year to Date, and Max, as shown below. These selections specify how much data to use in the predictions. That is, if 'Day' is chosen, the predictor will use valuation data within the last day. The more data you use, the better the predictions but the longer the processing time. 
 
-<img src="assets/image5.png" alt="Time Period" style="align:'center'">
-
+<p align="center">
+  <img src="assets/image5.png" alt="Ticker Period">
+</p>
 
 For the second field (the Time Amount), you get to input how many Days, Months, or Years worth of data you wish to use for the prediction. Note that you must choose a number that is probable. That is, using the number 1,000,000 will not work. Try using smaller numbers such as 1 or 3 for best results. 
 
-<img src="assets/image6.png" alt="Time Amount" class="center-image">
+<p align="center">
+  <img src="assets/image6.png" alt="Time Amount">
+</p>
 
 For the third field (the Data Type), you get the selection from the following: Low, High, Open, Close, Volume. These denote specific valuations. The volume, however, does NOT denote the price of the stock in question, but rather how many stocks are out at the time. 
 
-<img src="assets/image7.png" alt="Data Type" class="center-image">
+<p align="center">
+  <img src="assets/image7.png" alt="Data Type">
+</p>
 
 For the fourth field (the Ticker Symbol), you get to choose a company to predict stock from! Choose any company you wish. However, be careful of using new and upcoming companies, as their data may not exist or the Time Amount chosen may be incorrect. Ensure that there is enough data to make good predictions. NOTE: For the image below, "AAPL" is the Ticker Symbol for Apple.
 
-<img src="assets/image8.png" alt="Ticker Symbol" class="center-image">
-
+<p align="center">
+  <img src="assets/image8.png" alt="Ticker Symbol">
+</p>
 
 
 Here is an image of all fields being filled as well as there being an output! Note that the current values are stored temporarily in their respective tables. In the case of you choosing 'volume' as the data type, ignore the label (USD) and interpret the value given as a number of stocks. 
