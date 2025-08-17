@@ -1,8 +1,7 @@
 $(document).ready(function() {
 
-  // Existing click handlers
   $(document).on("click", ".start-button", function() {
-    window.location.href = "/getting-started";
+    window.location.href = "/valuation";
   });
 
   $(document).on("click", ".back", function() {

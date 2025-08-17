@@ -14,11 +14,6 @@ def info():
     print(" -- [DEBUG] Entering Information Page -- ")
     return flask.render_template('info.html')
 
-@app.route('/getting-started')
-def getting_started(): 
-    print(" -- [DEBUG] Entering Getting Started Page -- ")
-    return flask.render_template('getting-started.html')
-
 @app.route('/valuation')
 def valuation(): 
     return flask.render_template('valuation.html')

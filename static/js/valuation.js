@@ -76,6 +76,10 @@ $(document).ready(function() {
         calc_valuation(control);
     });
 
+    $(document).on("click", ".back", function() {
+        window.location.href = "/info";
+    });
+
     $(document).on("change", "select[name='time_period']", function() {
         var period = $(this).val();
         var amountInput = $(this).closest(".control").find("input[name='amount']");

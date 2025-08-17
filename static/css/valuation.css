@@ -111,6 +111,21 @@ input, select {
   font-weight: bold;
 }
 
+button.back {
+  background-color: darkred;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px;
+  transition: background-color 1s ease, box-shadow .5s ease;
+}
+
+button.back:hover {
+  background-color: red;
+  box-shadow: 0 0 15px red;
+}
+
 @keyframes typewriter {
   from { width: 0 }
   to { width: 100% }
