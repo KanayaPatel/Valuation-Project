@@ -14,13 +14,17 @@ Step 1: Use the following command in a terminal:
 ```bash
 git clone https://github.com/KanayaPatel/Valuation-Project.git
 ```
+Once you clone it, ensure you are NOT in the folder called "Valuation-Project". To ensure this, run the following: 
+```bash
+cd .. 
+```
 
 ---
 
 Step 2: Use the following command: 
   
 ```bash 
-python3.11 venv venv
+python3.11 -m venv venv
 ```
 
 This creates a python virtual environment (this will take a minute). After finishing, activate it using
@@ -41,7 +45,7 @@ cd '.\Finance Project\'
 
 Then, also do the following:
    
-```
+```bash
 pip install -r "requirements.txt"
 ```
 this may take a minute. 
