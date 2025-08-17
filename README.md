@@ -1,15 +1,62 @@
+## 📑 Table of Contents
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Examples](#-examples)
+- [Contributing](#-contributing)
+- [Dependencies](#-dependencies)
+- [Future Improvements](#-future-improvements)
+- [License](#-license)
+
 
 ## 🚀 Installation
-  Step 1: Use the following command in a terminal: ```git clone https://github.com/KanayaPatel/Valuation-Project.git```
+Step 1: Use the following command in a terminal: 
   
-  Step 2: Use the following command: ```python3.11 venv venv``` to create a python virtual environment (this will take a minute). Then, activate it using ```venv/Scripts/activate```. Both these commands happen in the terminal as well. 
+```bash
+git clone https://github.com/KanayaPatel/Valuation-Project.git
+```
 
-  Step 3: Enter the project folder using ```cd '.\Finance Project\'```. Then, do ```pip install -r "requirements.txt"```, this may take a minute. 
+---
 
-  Step 4: Open the ```app.py``` folder and run it. From the terminal, press CTRL + Left click on the second or third part that says "Running On". This will take you to the actual webpage. 
+Step 2: Use the following command: 
+  
+```bash 
+python3.11 venv venv
+```
+
+This creates a python virtual environment (this will take a minute). After finishing, activate it using
+
+```bash
+venv/Scripts/activate
+```
+
+ Both these commands happen in the terminal. 
+
+---
+
+Step 3: Enter the project folder using: 
+
+```bash 
+cd '.\Finance Project\'
+```
+
+Then, also do the following:
+   
+```
+pip install -r "requirements.txt"
+```
+this may take a minute. 
+
+---
+
+Step 4: Open the ```app.py``` folder and run it. From the terminal, press CTRL + Left click on the second or third line that says "Running On" (shown below). This will take you to the actual webpage. 
+
+<p align="center"><img width="428" height="53" alt="image" src="https://github.com/user-attachments/assets/ba095797-8205-4b83-8a7b-05b9cef2dd28" /></p>
+
+
+  
   
 ## 🛠 Usage
-At this point in time, you shold see a webpage that should look like the following: 
+At this point in time, you should see a webpage that should look like the following: 
 
 <img width="2559" height="1266" alt="image" src="https://github.com/user-attachments/assets/3c2ed03a-ba94-493c-b503-87fcb633b34a" />
 
@@ -17,7 +64,7 @@ Click on the information button to learn about this project. The webpage should 
 
 <img width="2558" height="1271" alt="image" src="https://github.com/user-attachments/assets/5c7a5750-754c-44bd-899f-fa0c29c36b4e" />
 
-If you wish to go back to the previous page at any time, there is always a button in the top left corner that will take you back to the previous page. After reading, click the "Get Started" button at the bottom of the screen. It will take you to a page to where the magic happens: 
+If you wish to go back to the previous page at any time, there is always a button in the top left corner that will take you back to the previous page. After reading, click the "Get Started" button at the bottom of the screen. It will take you to the main page where predictions are made: 
 
 <img width="2558" height="1272" alt="image" src="https://github.com/user-attachments/assets/34881689-235b-4134-a1da-5f13117aa0fb" />
 
@@ -57,11 +104,22 @@ You can contribute in several ways:
 - 📝 Improving documentation
 - 🔧 Submitting code via Pull Requests
   
-## 📜 License
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+## 📦 Dependencies
+This project uses the following libraries and APIs (these were already applied in the Installation step at the top of the page):
+
+- [Yahoo Finance API](https://finance.yahoo.com/) via [yfinance](https://pypi.org/project/yfinance/)
+- [Pandas](https://pandas.pydata.org/) – data manipulation
+- [Matplotlib](https://matplotlib.org/) – visualization
+- [Prophet](https://facebook.github.io/prophet/) – forecasting
+
+## 🙏 Acknowledgements
+- Some helper functions and code snippets were suggested by ChatGPT (OpenAI)
 
 ## 🚧 Future Improvements
 - [ ] Add the ability to save estimates for future use. 
 - [ ] Implement login (Username and Password)
 - [ ] Implement the ability to use non-Ticker Symbol using companies (such as Samsung)
-- [ ] Include a spot to display the error in the estimates. 
+- [ ] Include a spot to display the error in the estimates.
+
+## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
