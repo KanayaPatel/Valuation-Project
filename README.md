@@ -23,5 +23,26 @@ If you wish to go back to the previous page at any time, there is always a butto
 Please read through the instructions and the notes at the bottom. Below will be some examples in the form of screenshots on how to use this predictor. 
 
 ## 📊 Examples
+
+For the first field (the Time Period), you get the selection from the following: Day, Month, Year, Year to Date, and Max, as shown below. These selections specify how much data to use in the predictions. That is, if Day is chosen, the predictor will use valuation data within the last day. The more data you use, the better the predictions but the longer the processing time. 
+
+<img width="296" height="482" alt="image" src="https://github.com/user-attachments/assets/aee13e74-f179-4649-be3a-f583e1f8306a" />
+
+For the second field (the Time Amount), you get to input how many Days, Months, or Years worth of data you wish to use for the prediction. Note that you must choose a number that is probable. That is, using the number 1,000,000 will not work. Try using smaller numbers such as 1 or 3 for best results. 
+
+<img width="412" height="137" alt="image" src="https://github.com/user-attachments/assets/726a0f44-bb1f-49c9-aa75-28a55b3b4a1d" />
+
+For the third field (the Data Type), you get the selection from the following: Low, High, Open, Close, Volume. These denote specific valuations. The volume, however, does NOT denote the price of the stock in question, but rather how many stocks are out at the time. 
+
+<img width="194" height="472" alt="image" src="https://github.com/user-attachments/assets/0427e247-ddf1-406a-a397-5565d79a8b0c" />
+
+For the fourth field (the Ticker Symbol), you get to choose a company to predict stock from! Choose any company you wish. However, be careful of using new and upcoming companies, as their data may not exist or the Time Amount chosen may be incorrect. Ensure that there is enough data to make good predictions. NOTE: For the image below, "AAPL" is the Ticker Symbol for Apple.
+
+<img width="408" height="141" alt="image" src="https://github.com/user-attachments/assets/0d972b8c-48aa-4b76-844a-c24c1951b01c" />
+
+
+
+
+
 ## 🤝 Contributing
 ## 📜 License
