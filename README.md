@@ -8,6 +8,9 @@
 - [License](#-license)
 
 
+
+NOTE: Some images in this README may be different than what is actually shown. The only thing that differs is the style and placement of the red buttons. All functionality is the same!
+
 ## 🚀 Installation
 Step 1: Use the following command in a terminal: 
   

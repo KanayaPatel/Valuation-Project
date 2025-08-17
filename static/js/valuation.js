@@ -56,6 +56,7 @@ function calc_valuation(control) {
         }
     });
 }
+
 $(document).ready(function() {
 
     $(document).on("click", ".est", function() {
