@@ -8,6 +8,8 @@
   Step 4: Open the ```app.py``` folder and run it. From the terminal, press CTRL + Left click on the second or third part that says "Running On". This will take you to the actual webpage. 
   
 ## 🛠 Usage
+At this point in time, you shold see a webpage that should look like the following: 
+<img width="2559" height="1266" alt="image" src="https://github.com/user-attachments/assets/3c2ed03a-ba94-493c-b503-87fcb633b34a" />
 
 
 ## 📊 Examples
