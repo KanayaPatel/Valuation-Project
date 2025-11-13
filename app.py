@@ -7,12 +7,7 @@ app = flask.Flask(__name__, template_folder='templates', static_folder='static')
 @app.route('/')
 def index():
     print(" -- [DEBUG] Entering Index Page -- ")
-    return flask.render_template('index.html')
-
-@app.route('/info')
-def info(): 
-    print(" -- [DEBUG] Entering Information Page -- ")
-    return flask.render_template('info.html')
+    return flask.render_template('valuation.html')
 
 @app.route('/valuation')
 def valuation(): 

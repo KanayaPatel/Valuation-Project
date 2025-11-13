@@ -32,7 +32,7 @@ function calc_valuation(control) {
 
             low_est.push(result.result.min);
             high_est.push(result.result.max);
-            $(".next").text("Next Step");
+            $(".next").text("Next Step").addClass('.button');
 
             console.log("Low Est: ", low_est);
             console.log("High Est: ", high_est);
