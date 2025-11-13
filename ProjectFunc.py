@@ -107,7 +107,11 @@ def confidence_intervals(data, step=1, n_iter=1):
         upper = round(np.percentile(preds, 97.5), 2)
         intervals.append((lower, upper))
 
-    return intervals
+    return intervals 
+
+
+def plot(data):
+    pass 
 
 
 
